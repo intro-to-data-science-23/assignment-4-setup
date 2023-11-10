@@ -1,0 +1,82 @@
+---
+title: "Assignment 4 - Visualization"
+author: "FILL IN YOUR FULL NAME"
+date: "`r format(Sys.time(), '%B %d, %Y | %H:%M:%S | %Z')`"
+output:
+  html_document:
+    code_folding: show
+    df_print: paged
+    highlight: tango
+    number_sections: no
+    theme: cosmo
+    toc: no
+---
+  
+
+<style>
+div.answer {background-color:#f3f0ff; border-radius: 5px; padding: 20px;}
+</style>
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      eval = TRUE,
+                      error = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      comment = NA)
+```
+
+***
+
+```{r, include = T}
+# LOAD THE PACKAGES YOU ARE USING IN THIS CODE CHUNK
+```
+
+
+<br>
+
+***
+
+### Task 1 - Principles of good data visualization
+
+Over at [Our World in Data](https://ourworldindata.org/grapher/child-mortality-vs-health-expenditure) you will find a chart illustrating child mortality vs. health expenditure, 2000 to 2019, across countries.
+
+Download the data and reproduce the plot as closely as possible using only the 2019 data (i.e. the bubble scatter plot that you see when you move the slider to the right) and log scales. Your plot does not have to be interactive and the colors don't have to exactly match those from the original plot as long as your plot remains well readable.
+  
+```{r}
+# YOUR CODE HERE
+```
+
+<br>
+
+***
+
+### Task 2 - IMDb small multiples
+
+The file [`imdb_series_df.csv`](https://github.com/intro-to-data-science-23/assignments/blob/main/assignment-4-setup/imdb_series_df.csv.zip?raw=true) contains a data set on rating information on series and episodes from the InternetMovieDatabase. Use these data to create a small multiples plot that illustrates a relationship of your choice. You can work with the entire dataset or a subset. Your plot should adhere to the principles of good design. In addition to the visualization, provide a sound discussion (10 sentences or less) of what the plot might tell us.
+
+*Note:* The data binary is fairly large (~93MB). It makes sense to download it first to your local drive and then import it into R. However, make sure that the file is not synced to GitHub using `.gitignore`.
+
+```{r}
+# YOUR CODE HERE
+```
+
+<br>
+
+
+***
+
+### Task 3 - Principles of good data visualization
+
+On [slide 75 of the lecture slides ("Dos and "Don'ts")](https://raw.githack.com/intro-to-data-science-22/lectures/main/09-visualization/09-visualization.html#85) you find a linked list of 20 statements expressing principles of good data visualization. Follow the links to learn more about them. Then, come up with another principle of good data visualization **that is not listed on the slide** and illustrate it following the instructions below: 
+
+  (i) Create a two-panel plot. The left panel shows a poorly designed plot (e.g., a 3D plot), the right panel shows a well-designed alternative using the same data. You are free to use whatever data you want to make your point.
+  (ii) The title of the plot should be the name of the principle, e.g. "**Don't go 3D.**"
+  (iii) The bottom of the plot should provide a note that explains, in a few sentences, the principle illustrated in the plot and how the right is an improved over the left version.
+  (iv) Embed the plot in your `.Rmd` but also provide it as a `.png` or `.pdf` in your submission repo.
+
+
+```{r}
+# YOUR CODE HERE
+```
