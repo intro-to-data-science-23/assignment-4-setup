@@ -54,7 +54,7 @@ Download the data and reproduce the plot as closely as possible using only the 2
 
 ### Task 2 - IMDb small multiples
 
-The file [`imdb_series_df.csv`](https://github.com/intro-to-data-science-23/assignments/blob/main/assignment-4-setup/imdb_series_df.csv.zip?raw=true) contains a data set on rating information on series and episodes from the InternetMovieDatabase. Use these data to create a small multiples plot that illustrates a relationship of your choice. You can work with the entire dataset or a subset. Your plot should adhere to the principles of good design. In addition to the visualization, provide a sound discussion (10 sentences or less) of what the plot might tell us.
+The file [`imdb_series_df.csv`](https://github.com/intro-to-data-science-23/assignment-4-setup/blob/main/imdb_series_df.csv.zip) contains a data set on rating information on series and episodes from the InternetMovieDatabase. Use these data to create a small multiples plot that illustrates a relationship of your choice. You can work with the entire dataset or a subset. Your plot should adhere to the principles of good design. In addition to the visualization, provide a sound discussion (10 sentences or less) of what the plot might tell us.
 
 *Note:* The data binary is fairly large (~93MB). It makes sense to download it first to your local drive and then import it into R. However, make sure that the file is not synced to GitHub using `.gitignore`.
 
